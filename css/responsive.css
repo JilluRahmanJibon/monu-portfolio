@@ -1,0 +1,173 @@
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .main-menu ul li {
+        margin: 0 1rem !important;
+    }
+}
+
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area .mx-4 {
+        margin-right: 1rem !important;
+        margin-left: 1rem !important;
+    }
+    .slider-inner h3 {
+        font-size: 55px;
+        color: #595959;
+    }
+    .features-area {
+        margin-top: 170px;
+    }
+    .pricing-wrapper {
+        width: 300px;
+    }
+    .copy-link {
+        padding-left: 0px;
+    }
+}
+
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area .mx-4 {
+        margin-right: .5rem !important;
+        margin-left: .5rem !important;
+    }
+    .features-area {
+        margin-top: 170px;
+    }
+    .features-content {
+        padding: 0 10px;
+    }
+    .leader-content p {
+        padding-top: 5px;
+        margin: 0;
+    }
+    .pricing-wrapper {
+        width: 320px;
+    }
+    .copy-link {
+        padding-left: 0;
+    }
+    .header-area {
+        padding: 20px 40px;
+    }
+    .slider-inner h3 {
+        font-size: 60px;
+    }
+}
+
+
+/* Extra small Device. */
+
+@media (min-width: 550px) and (max-width: 767px) {
+    .header-area {
+        padding: 20px 40px;
+    }
+    .slider-inner h3 {
+        font-size: 50px;
+    }
+    .features-area {
+        margin-top: 170px;
+    }
+    .subscribe-area .pb-4 {
+        padding-bottom: 0rem !important;
+    }
+    .ft {
+        display: none;
+    }
+    .copy {
+        text-align: center;
+    }
+    .mt-50 {
+        margin-top: 50px;
+    }
+    .footer-content h3 {
+        text-align: center;
+    }
+    .pricing-wrapper {
+        margin: auto;
+    }
+    .subscribe-area {
+        text-align: center;
+    }
+    .width-50 {
+        width: 70% !important;
+    }
+    .subscribe-btn {
+        display: flex !important;
+        justify-content: center;
+    }
+}
+
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+    .header-area {
+        padding: 20px 20px;
+    }
+    .slider-inner h3 {
+        font-size: 35px;
+    }
+    .subscribe-area .pb-4 {
+        padding-bottom: 0rem !important;
+    }
+    .services-area.px-5.mx-4.py-4.my-2 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .pricing-wrapper {
+        width: 270px;
+    }
+    .theresa-wrapper {
+        padding: 0;
+    }
+    .ft {
+        display: none;
+    }
+    .copy {
+        text-align: center;
+    }
+    .mt-50 {
+        margin-top: 50px;
+    }
+    .footer-content h3 {
+        text-align: center;
+    }
+}
+
+
+/* retina query */
+
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),
+only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),
+only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),
+only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),
+only screen and (min-resolution:192dpi) and (max-width:991.98px),
+only screen and (min-resolution:2dppx) and (max-width:991.98px) {
+    .logo .standard-logo {
+        display: none;
+    }
+    .logo .retina-logo {
+        display: inline-block;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),
+only screen and (min--moz-device-pixel-ratio:2),
+only screen and (-o-min-device-pixel-ratio:2/1),
+only screen and (min-device-pixel-ratio:2),
+only screen and (min-resolution:192dpi),
+only screen and (min-resolution:2dppx) {
+    .logo .standard-logo {
+        display: none;
+    }
+    .logo .retina-logo {
+        display: inline-block;
+    }
+}
